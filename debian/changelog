@@ -1,0 +1,23 @@
+golang-github-mozillazg-go-pinyin (0.18.0+ds.1-2) unstable; urgency=low
+
+  * Bump Standards-Version to 4.6.0.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Add missing ${misc:Built-Using} to Built-Using on
+    golang-github-mozillazg-go-pinyin-dev.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 18 Aug 2021 11:32:28 -0400
+
+golang-github-mozillazg-go-pinyin (0.18.0+ds.1-1) unstable; urgency=medium
+
+  * Source-only upload onto unstable.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 22 Jul 2020 10:25:47 -0400
+
+golang-github-mozillazg-go-pinyin (0.18.0+ds.1-1~exp1) experimental; urgency=medium
+
+  * Initial Release 0.18.0
+
+ -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 19 Jul 2020 17:54:12 +0545

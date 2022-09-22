@@ -1,0 +1,27 @@
+Source: golang-github-mozillazg-go-pinyin
+Section: devel
+Priority: optional
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+ Arun Kumar Pariyar <openarungeek@gmail.com>,
+ Debian Go Packaging Team <team+pkg-go@tracker.debian.org>,
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-golang,
+ golang-any,
+ golang-github-mattn-go-isatty-dev,
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/mozillazg/go-pinyin
+Vcs-Browser: https://salsa.debian.org/pkg-deepin-team/golang-github-mozillazg-go-pinyin
+Vcs-Git: https://salsa.debian.org/pkg-deepin-team/golang-github-mozillazg-go-pinyin.git
+XS-Go-Import-Path: github.com/mozillazg/go-pinyin
+
+Package: golang-github-mozillazg-go-pinyin-dev
+Architecture: any
+Depends:
+ ${misc:Depends},
+Built-Using: ${misc:Built-Using}
+Description: Chinese pinyin conversion library for Golang.
+ This package provides golang chinese pinyin conversion library.
